@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: chartreuse;
+}
+h1{
+  background-color: orangered;
+  color: aqua;
+  text-align: center;
+  line-height: 5rem;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 3rem;
+  align-items: center;
+  height: 300px;
+  
+}
+.choice{
+  border:0.5rem solid  none;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.choice :hover{
+  border:0.5rem solid  #081b31;
+  cursor: pointer;
+  opacity: 85%;
+
+}  
+.final-score{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  align-items: center;
+
+}
+.us{
+  font-size: 60px;
+}
+.cs{
+  font-size: 60px;
+}
+.show {
+  margin-top: 2rem;
+  display:flex;
+  justify-content: center;
+}
+#msg{
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 1rem;
+  font-size: 30px;
+  padding: 10px;
+}
